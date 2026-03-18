@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Primo programma JavaScript</title>
+    <style>
+        /* Stile per il DIV */
+        #messaggio {
+            margin: 20px 0;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        /* Stile pulsanti */
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        #btnTesto { background-color: #4CAF50; color: white; }
+        #btnColore { background-color: #f39c12; color: white; }
+        #btnReset { background-color: #e74c3c; color: white; }
+
+        /* Hover effetto */
+        button:hover {
+            transform: scale(1.05);
+            opacity: 0.85;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Esempio JavaScript</h1>
+
+<div id="messaggio">
+Questo testo verrà modificato dai pulsanti.
+</div>
+
+<!-- Pulsanti -->
+<button id="btnTesto">Cambia Testo</button>
+<button id="btnColore">Cambia Colore</button>
+<button id="btnReset">Reset</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
